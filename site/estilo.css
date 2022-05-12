@@ -1,3 +1,28 @@
-body {
-    text-align: center; 
+:root{
+    --cor0: #C8E3C9;
+    --cor1: #C7F0DF;
+    --cor2: #CFFADD; 
+    --cor3: #DCFACF;
+    --cor4: #B1C9B2;
+}
+body{
+    background-color: #CFFADD;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-image: linear-gradient(to bottom, #C8E3C9, #a3bda4);
+    padding: 10px;
+}
+header>h1{
+    text-align: center;
+}
+header>span{
+    padding: 0.5em;
+}
+header>span:hover{
+    background-color: rgba(226, 222, 222, 0.514);
+    border-radius: 10px;
+    
+    
 }
