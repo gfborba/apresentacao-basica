@@ -21,8 +21,25 @@ header>span{
     padding: 0.5em;
 }
 header>span:hover{
-    background-color: rgba(226, 222, 222, 0.514);
+    background-color: #ffffff9f;
     border-radius: 10px;
     
     
+}
+header>a{
+    text-decoration: none;
+    padding: 0.5em;
+    color: black;
+}
+header>a:hover{
+    background-color: #ffffff9f;
+    border-radius: 10px;
+}
+
+main#mp{
+    background-color: white;
+    height: 30em;
+    width: 23em;
+    margin: auto;
+    padding:1.5em
 }
