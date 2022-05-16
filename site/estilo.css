@@ -4,6 +4,7 @@
     --cor2: #CFFADD; 
     --cor3: #DCFACF;
     --cor4: #B1C9B2;
+    --cor5: #586358;
 }
 body{
     background-color: #CFFADD;
@@ -25,6 +26,7 @@ header>span:hover{
     border-radius: 10px;
     
     
+    
 }
 header>a{
     text-decoration: none;
@@ -34,12 +36,50 @@ header>a{
 header>a:hover{
     background-color: #ffffff9f;
     border-radius: 10px;
+    
+    
 }
 
 main#mp{
     background-color: white;
     height: 30em;
     width: 23em;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
     padding:1.5em
+    
 }
+section#sect{
+    background-color: #B1C9B2;
+    width: 30em;
+    height: 42.32em;
+    padding: 11px;
+    display: inline-block;
+}
+h1#p1{
+    font-size: 7em;
+    font-family: Anton, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight:1;
+}
+p#p2{
+    font-size: 1.5em;
+    font-family: Anton, sans-serif;
+    color: #586358;
+    padding-top: 4em;
+    
+}
+img#photo{
+    margin-left: 20em;
+    margin-top: 5em;
+    
+    position: absolute;
+    
+}
+
+section#sect,section#sect2{
+    display: inline-block;
+    float: left;
+}
+
