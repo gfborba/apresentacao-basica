@@ -86,9 +86,13 @@ details{
     text-align: left;
     margin-left: 20em;
     margin-top:22em;
+    background-color: #B1C9B2;
+    padding: 5px;
+    border-radius: 8px;
 
 }
 ul{
     
+    columns: 2;
 }
 
