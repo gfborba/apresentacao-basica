@@ -67,11 +67,11 @@ p#p2{
     font-size: 1.5em;
     font-family: Anton, sans-serif;
     color: #586358;
-    padding-top: 4em;
+    
     
 }
 img#photo{
-    margin-left: 20em;
+    margin-left: 23em;
     margin-top: 5em;
     
     position: absolute;
@@ -81,5 +81,14 @@ img#photo{
 section#sect,section#sect2{
     display: inline-block;
     float: left;
+}
+details{
+    text-align: left;
+    margin-left: 20em;
+    margin-top:22em;
+
+}
+ul{
+    
 }
 
