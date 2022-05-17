@@ -16,7 +16,7 @@ body{
 }
 header{
     background-image: linear-gradient(to bottom, #C8E3C9, #a3bda4);
-    padding: 12px;
+    padding: 15px;
     text-align: left;
     font-family: Poppins;
     font-weight: bold;
@@ -54,22 +54,24 @@ header>a:hover{
 
 main#mp{
     background-color: white;
-    height: 40em;
-    width: 30em;
+    height: 65em;
+    width: 40em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     padding:1.5em;
     font-weight: bold;
     font-size: 0.9em;
     border-radius: 0px 15px;
+    text-align: justify;
     
     
 }
 section#sect{
     background-color: #B1C9B2;
     width: 30em;
-    height: 42.9em;
+    height: 42.5em;
     padding: 11px;
     display: inline-block;
 }
@@ -127,4 +129,17 @@ details>p>a{
 details>p>a:hover{
     color: white;
 
+}
+
+div.fotos{
+    text-align: center;
+    
+}
+main#mp>h1{
+    text-align: center;
+    font-family: ;
+    font-weight: normal;
+    font-size: 3em;
+    letter-spacing: 3px;
+    color:  ;
 }
