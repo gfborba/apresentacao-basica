@@ -14,12 +14,17 @@ body{
 header{
     background-image: linear-gradient(to bottom, #C8E3C9, #a3bda4);
     padding: 10px;
+    text-align: right;
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
 }
 header>h1{
     text-align: center;
 }
 header>span{
     padding: 0.5em;
+    
 }
 header>span:hover{
     background-color: #ffffff9f;
@@ -31,11 +36,13 @@ header>span:hover{
 header>a{
     text-decoration: none;
     padding: 0.5em;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 header>a:hover{
     background-color: #ffffff9f;
     border-radius: 10px;
+    color: black;
+    
     
     
 }
@@ -71,8 +78,8 @@ p#p2{
     
 }
 img#photo{
-    margin-left: 23em;
-    margin-top: 5em;
+    margin-left: 26em;
+    margin-top: 9em;
     
     position: absolute;
     
@@ -84,11 +91,15 @@ section#sect,section#sect2{
 }
 details{
     text-align: left;
-    margin-left: 20em;
-    margin-top:22em;
+    margin-left: 17em;
+    margin-top:25em;
     background-color: #B1C9B2;
     padding: 5px;
     border-radius: 8px;
+    font-family: Poppins;
+    font-weight: bold;
+    
+    
 
 }
 ul{
@@ -96,3 +107,11 @@ ul{
     columns: 2;
 }
 
+details>p>a{
+    text-decoration: none;
+    color: black;
+}
+details>p>a:hover{
+    color: white;
+
+}
