@@ -1,3 +1,4 @@
+
 :root{
     --cor0: #C8E3C9;
     --cor1: #C7F0DF;
@@ -80,6 +81,7 @@ p#p2{
 img#photo{
     margin-left: 26em;
     margin-top: 9em;
+    
     
     position: absolute;
     
