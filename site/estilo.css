@@ -11,14 +11,17 @@ body{
     background-color: #CFFADD;
     padding: 0%;
     margin: 0%;
+    font-family: Poppins, sans-serif;
+    
 }
 header{
     background-image: linear-gradient(to bottom, #C8E3C9, #a3bda4);
-    padding: 10px;
-    text-align: right;
+    padding: 12px;
+    text-align: left;
     font-family: Poppins;
     font-weight: bold;
     color: white;
+    ;
 }
 header>h1{
     text-align: center;
@@ -46,22 +49,27 @@ header>a:hover{
     
     
     
+    
 }
 
 main#mp{
     background-color: white;
-    height: 30em;
-    width: 23em;
+    height: 40em;
+    width: 30em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5em;
-    padding:1.5em
+    margin-top: 3em;
+    padding:1.5em;
+    font-weight: bold;
+    font-size: 0.9em;
+    border-radius: 0px 15px;
+    
     
 }
 section#sect{
     background-color: #B1C9B2;
     width: 30em;
-    height: 42.32em;
+    height: 42.9em;
     padding: 11px;
     display: inline-block;
 }
@@ -70,11 +78,13 @@ h1#p1{
     font-family: Anton, sans-serif;
     color: rgb(255, 255, 255);
     font-weight:1;
+    padding-left: 5px;
 }
 p#p2{
     font-size: 1.5em;
     font-family: Anton, sans-serif;
     color: #586358;
+    padding-left: 5px;
     
     
 }
@@ -100,6 +110,7 @@ details{
     border-radius: 8px;
     font-family: Poppins;
     font-weight: bold;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
     
     
 
