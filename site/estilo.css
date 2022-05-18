@@ -143,3 +143,26 @@ main#mp>h1{
     letter-spacing: 3px;
    
 }
+div#redes{
+    background-color: #B1C9B2;
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20em;
+    border-radius: 30px ;
+    margin-top: 7em;
+    padding-top: 6em;
+}
+li.lis{
+    margin-bottom: 3em;
+    margin-left: 5em;
+    font-weight: bold;
+    background-color: antiquewhite;
+    width: 7em;
+    height: 2em;
+    padding-left: 6px;
+    border-radius: 30px;
+}
+p.pli>img{
+    
+}
