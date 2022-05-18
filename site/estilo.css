@@ -100,7 +100,7 @@ img#photo{
 }
 
 section#sect,section#sect2{
-    display: inline-block;
+    display: inline;
     float: left;
 }
 details{
