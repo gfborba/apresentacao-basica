@@ -145,7 +145,7 @@ main#mp>h1{
 }
 div#redes{
     background-color: #B1C9B2;
-    width: 50em;
+    width: 40em;
     margin-left: auto;
     margin-right: auto;
     height: 18em;
@@ -155,7 +155,7 @@ div#redes{
 }
 li.lis{
     margin-bottom: 3em;
-    margin-left: 4em;
+    margin-left: 3em;
     font-weight: bold;
     font-size: 1em;
     background-color: antiquewhite;
@@ -171,4 +171,11 @@ p.pli>img{
 }
 p.pli:hover{
     padding: 10px;
+}
+div#redes>ul>a{
+    color: black;
+    text-decoration: none;
+}
+div#redes>ul>a:hover{
+    color: ;
 }
