@@ -145,37 +145,46 @@ main#mp>h1{
 }
 div#redes{
     background-color: #B1C9B2;
-    width: 40em;
+    width: 38em;
     margin-left: auto;
     margin-right: auto;
-    height: 18em;
+    height: 23em;
     border-radius: 30px ;
     margin-top: 6em;
     padding-top: 3em;
 }
 li.lis{
-    margin-bottom: 3em;
-    margin-left: 3em;
+    margin-bottom: 7em;
     font-weight: bold;
     font-size: 1em;
-    background-color: antiquewhite;
-    width: 7em;
     
     padding: 0px;
     border-radius: 30px;
-    text-align: center;
+    margin-left: 4em;
     
 }
-p.pli>img{
-    height: 16px;
-}
-p.pli:hover{
-    padding: 10px;
-}
+
+
 div#redes>ul>a{
     color: black;
     text-decoration: none;
+    
 }
-div#redes>ul>a:hover{
-    color: ;
+
+    
+
+
+a>img{
+    height: 3em;
+    background-color: #C7F0DF;
+    padding: 1em;
+    border-radius: 50%;
+}
+a>img:hover{
+    background-color: #586358;
+    height: 3.5em;
+    transition-delay: 0.5ms;
+}
+a>img:active{
+    background-color: #DCFACF;
 }
